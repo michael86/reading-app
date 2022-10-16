@@ -13,30 +13,30 @@ const initialState = {
     ],
     [
       //group 2
-      { letter: "ck", words: ["ant"] },
-      { letter: "d", words: ["ink"] },
-      { letter: "e", words: ["net"] },
-      { letter: "h", words: ["puff"] },
-      { letter: "m", words: ["snake"] },
-      { letter: "r", words: ["tennis"] },
+      { letter: "ck", words: ["cat"] },
+      { letter: "d", words: ["drum"] },
+      { letter: "e", words: ["egg"] },
+      { letter: "h", words: ["hop"] },
+      { letter: "m", words: ["meal"] },
+      { letter: "r", words: ["rag"] },
     ],
     [
       //group 3
-      { letter: "b", words: ["ant"] },
-      { letter: "f", words: ["ink"] },
-      { letter: "g", words: ["net"] },
-      { letter: "l", words: ["puff"] },
-      { letter: "o", words: ["snake"] },
-      { letter: "u", words: ["tennis"] },
+      { letter: "b", words: ["bat"] },
+      { letter: "f", words: ["fish"] },
+      { letter: "g", words: ["gargle"] },
+      { letter: "l", words: ["lollipop"] },
+      { letter: "o", words: ["on"] },
+      { letter: "u", words: ["umbrella"] },
     ],
     [
       //group 4
-      { letter: "ai", words: ["ant"] },
-      { letter: "ee", words: ["ink"] },
-      { letter: "ie", words: ["net"] },
-      { letter: "j", words: ["puff"] },
-      { letter: "oa", words: ["snake"] },
-      { letter: "or", words: ["tennis"] },
+      { letter: "ai", words: ["pain"] },
+      { letter: "ee", words: ["bee"] },
+      { letter: "ie", words: ["tie"] },
+      { letter: "j", words: ["jam"] },
+      { letter: "oa", words: ["goat"] },
+      { letter: "or", words: ["fork"] },
     ],
     [
       //group 5
