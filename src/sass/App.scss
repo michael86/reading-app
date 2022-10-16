@@ -42,3 +42,17 @@ header {
     color: #fff;
   }
 }
+
+.letter {
+  font-size: 6rem;
+}
+
+.word {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .word-img {
+    width: 50%;
+  }
+}

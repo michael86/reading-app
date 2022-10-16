@@ -16,21 +16,30 @@ const Lesson = () => {
           return (
             <Col xs={12} lg={6}>
               <Card className="mt-3">
-                <Card.Title className="text-center">
-                  {childLesson.letter.toLowerCase()}
-                </Card.Title>{" "}
                 {/*If get time choose random word or something*/}
-                <Card.Body className="d-flex flex-column align-content-center justify-content-center text-center">
-                  {childLesson.words[0]}
-                  <img
-                    src={require(`../../assets/images/group${currLesson + 1}/${
-                      childLesson.letter
-                    }.gif`)}
-                    alt="letter gif"
-                    className="w-25"
-                  />
+                <Card.Body className="d-flex">
+                  <Row>
+                    <Col
+                      xl={6}
+                      className="d-flex flex-column align-center justify-content-center text-center"
+                    >
+                      <h2 className="letter">
+                        {childLesson.letter.toLowerCase()}
+                      </h2>
+                      <p className="word">{childLesson.words[0]}</p>
+                    </Col>
+                    <Col xl={6}>
+                      <img
+                        src={require(`../../assets/images/group${
+                          currLesson + 1
+                        }/${childLesson.letter}.gif`)}
+                        alt="letter gif"
+                        className="w-100 w-xs-50 word-img"
+                      />
+                    </Col>
+                  </Row>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="text-center">
                   <Button
                     onClick={() => {
                       const audio = new Audio(
