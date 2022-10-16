@@ -6,7 +6,7 @@ const Landing = () => {
     <div className="App">
       <header>
         <h3>Welcome to</h3>
-        <h1>Early Readers</h1>
+        <h1>Tigers Early Readers</h1>
       </header>
       <Container>
         <Row>
