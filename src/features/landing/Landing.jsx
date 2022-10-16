@@ -12,12 +12,13 @@ const Landing = () => {
         <Row>
           <Col>
             <Card className="mt-5">
-              <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos nihil perspiciatis sed aliquam quas laborum
+                  laudantium provident neque deserunt dicta possimus fugit, id
+                  suscipit magni cum iusto repudiandae exercitationem eius.
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
@@ -25,12 +26,13 @@ const Landing = () => {
           </Col>
           <Col>
             <Card className="mt-5">
-              <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto, enim vel at ipsa nobis dicta id ipsum quibusdam a
+                  amet facilis. Nesciunt totam at excepturi obcaecati cum
+                  quisquam necessitatibus nobis!
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
