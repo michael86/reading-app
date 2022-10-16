@@ -7,13 +7,10 @@ const ProgressPage = () => {
   const groups = useSelector((state) => state.groups);
   const progress = useSelector((state) => state.progress.progress);
 
-  console.log(progress);
-
   return (
     <>
-      <h1>ProgressPage</h1>
-
       <Container>
+        <h1 className="text-center">Progress Page</h1>
         <Row>
           {groups.groups.map((group, index) => (
             <Col xs={12} lg={6}>
