@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import { Button } from "react-bootstrap";
 import Word from "./Word";
 
 const GuessingGame = () => {
@@ -19,13 +18,6 @@ const GuessingGame = () => {
     setWord(groups[level][targIndex]);
   };
 
-  console.log("level", level);
-  console.log("targindex", targIndex);
-  console.log("word", word);
-  console.log(
-    "groups[level][targIndex].letter",
-    groups[level][targIndex].letter
-  );
   return (
     <>
       <Container className="text-center">
