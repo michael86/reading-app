@@ -1,18 +1,31 @@
 import React from "react";
-import { Nav, NavDropdown, Container } from "react-bootstrap";
-import { useSelector } from "react-redux";
-import { getLengthGroups } from "../groups/groupsSlice";
+import { Container, Nav, NavDropdown } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
+import { setScreen } from "../screens/screenSlice";
 
 const MainNav = () => {
   const groups = useSelector((state) => state.groups);
+  const dispatch = useDispatch();
 
   return (
     <>
       <Nav className="main_nav">
         <Container>
           <Nav.Item>
-            <Nav.Link className="nav_links" href="/">
+            <Nav.Link
+              className="nav_links"
+              onClick={() => dispatch(setScreen(0))}
+            >
               Home
+            </Nav.Link>
+          </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link
+              className="nav_links"
+              onClick={() => dispatch(setScreen(1))}
+            >
+              Progress
             </Nav.Link>
           </Nav.Item>
 

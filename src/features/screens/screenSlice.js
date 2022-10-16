@@ -5,7 +5,7 @@ const initialState = {
 };
 
 //Screen 0 = landing
-//Screen 1 = lessons
+//Screen 1 = progress
 //Screen 2 = group
 //Screen 3 = words
 
