@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Nav, NavDropdown } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
+import { setCurrentLesson } from "../currentLesson/currentLesson";
 import { setScreen } from "../screens/screenSlice";
 
 const MainNav = () => {
@@ -31,9 +32,13 @@ const MainNav = () => {
 
           <NavDropdown title="Lessons" id="lesson-dropdown">
             {groups.groups.map((group, index) => (
-              <NavDropdown.Item data-lesson={index}>{`Lesson ${
-                index + 1
-              }`}</NavDropdown.Item>
+              <NavDropdown.Item
+                data-lesson={index}
+                onClick={() => {
+                  dispatch(setScreen(2));
+                  dispatch(setCurrentLesson(index));
+                }}
+              >{`Lesson ${index + 1}`}</NavDropdown.Item>
             ))}
           </NavDropdown>
         </Container>

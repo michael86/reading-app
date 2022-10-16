@@ -29,7 +29,7 @@ const GroupCard = ({ group, groupIndex, completed }) => {
             <Button
               onClick={() => {
                 dispatch(setCurrentLesson(groupIndex));
-                dispatch(setScreen(3));
+                dispatch(setScreen(2));
               }}
             >
               Start Lesson
