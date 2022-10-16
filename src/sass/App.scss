@@ -1,0 +1,44 @@
+.main_nav {
+  background-color: #3ab829;
+  nav .navbar-nav li a {
+    color: white !important;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  #lesson-dropdown {
+    color: #fff;
+  }
+  .nav_links {
+    color: #fff;
+
+    .nav-item:visited,
+    .nav-item:link,
+    .nav-item:active {
+      color: #fff !important;
+    }
+  }
+}
+
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(0, 0, 0, 0.52)
+    ),
+    url("/assets/images/banner.jpg");
+  background-size: cover;
+  height: 600px;
+  display: grid;
+  place-content: center;
+  h1 {
+    color: #fff;
+    font-size: 6rem;
+  }
+
+  h3 {
+    color: #fff;
+  }
+}

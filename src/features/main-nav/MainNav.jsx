@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavDropdown } from "react-bootstrap";
+import { Nav, NavDropdown, Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { getLengthGroups } from "../groups/groupsSlice";
 
@@ -8,18 +8,22 @@ const MainNav = () => {
 
   return (
     <>
-      <Nav>
-        <Nav.Item>
-          <Nav.Link href="/">Home</Nav.Link>
-        </Nav.Item>
+      <Nav className="main_nav">
+        <Container>
+          <Nav.Item>
+            <Nav.Link className="nav_links" href="/">
+              Home
+            </Nav.Link>
+          </Nav.Item>
 
-        <NavDropdown title="Lessons" id="lesson-dropdown">
-          {groups.groups.map((group, index) => (
-            <NavDropdown.Item data-lesson={index}>{`Lesson ${
-              index + 1
-            }`}</NavDropdown.Item>
-          ))}
-        </NavDropdown>
+          <NavDropdown title="Lessons" id="lesson-dropdown">
+            {groups.groups.map((group, index) => (
+              <NavDropdown.Item data-lesson={index}>{`Lesson ${
+                index + 1
+              }`}</NavDropdown.Item>
+            ))}
+          </NavDropdown>
+        </Container>
       </Nav>
     </>
   );
