@@ -4,17 +4,22 @@ const initialState = {
   screen: 0,
 };
 
-export const groupsSlice = createSlice({
-  name: "groups",
+//Screen 0 = landing
+//Screen 1 = lessons
+//Screen 2 = group
+//Screen 3 = words
+
+export const screenSlice = createSlice({
+  name: "screen",
   initialState,
 
-  reducers: {},
+  reducers: {
+    setScreen: (state, action) => {
+      state.screen = action.payload;
+    },
+  },
 });
 
-// export const {} = counterSlice.actions;
-// export const getLengthGroups = (state) => {
-//   console.log(state);
-//   return state.groups.length;
-// };
+export const { setScreen } = screenSlice.actions;
 
-export default groupsSlice.reducer;
+export default screenSlice.reducer;
