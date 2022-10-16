@@ -38,9 +38,19 @@ const MainNav = () => {
                   dispatch(setScreen(2));
                   dispatch(setCurrentLesson(index));
                 }}
+                key={Math.random() * 10000000}
               >{`Lesson ${index + 1}`}</NavDropdown.Item>
             ))}
           </NavDropdown>
+
+          <Nav.Item>
+            <Nav.Link
+              className="nav_links"
+              onClick={() => dispatch(setScreen(3))}
+            >
+              Guessing Game
+            </Nav.Link>
+          </Nav.Item>
         </Container>
       </Nav>
     </>

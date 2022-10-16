@@ -38,33 +38,33 @@ const initialState = {
       { letter: "oa", words: ["goat"] },
       { letter: "or", words: ["fork"] },
     ],
-    [
-      //group 5
-      { letter: "book", words: ["ant"] },
-      { letter: "moon", words: ["ink"] },
-      { letter: "ng", words: ["net"] },
-      { letter: "v", words: ["puff"] },
-      { letter: "w", words: ["snake"] },
-      { letter: "z", words: ["tennis"] },
-    ],
-    [
-      //group 6
-      { letter: "ch", words: ["ant"] },
-      { letter: "sh", words: ["ink"] },
-      { letter: "this", words: ["net"] },
-      { letter: "three", words: ["puff"] },
-      { letter: "x", words: ["snake"] },
-      { letter: "y", words: ["tennis"] },
-    ],
-    [
-      //group 7
-      { letter: "ar", words: ["ant"] },
-      { letter: "er", words: ["ink"] },
-      { letter: "oi", words: ["net"] },
-      { letter: "ou", words: ["puff"] },
-      { letter: "qu", words: ["snake"] },
-      { letter: "ue", words: ["tennis"] },
-    ],
+    // [
+    //   //group 5
+    //   { letter: "book", words: ["ant"] },
+    //   { letter: "moon", words: ["ink"] },
+    //   { letter: "ng", words: ["net"] },
+    //   { letter: "v", words: ["puff"] },
+    //   { letter: "w", words: ["snake"] },
+    //   { letter: "z", words: ["tennis"] },
+    // ],
+    // [
+    //   //group 6
+    //   { letter: "ch", words: ["ant"] },
+    //   { letter: "sh", words: ["ink"] },
+    //   { letter: "this", words: ["net"] },
+    //   { letter: "three", words: ["puff"] },
+    //   { letter: "x", words: ["snake"] },
+    //   { letter: "y", words: ["tennis"] },
+    // ],
+    // [
+    //   //group 7
+    //   { letter: "ar", words: ["ant"] },
+    //   { letter: "er", words: ["ink"] },
+    //   { letter: "oi", words: ["net"] },
+    //   { letter: "ou", words: ["puff"] },
+    //   { letter: "qu", words: ["snake"] },
+    //   { letter: "ue", words: ["tennis"] },
+    // ],
   ],
 };
 
